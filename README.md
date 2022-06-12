@@ -1,11 +1,13 @@
-Start Machine Learning project.
+## Start Machine Learning project.
+'''
 Software and account Requirement.
+'''
 
 Github Account
 Heroku Account
 VS Code IDE
 GIT cli
-5. [Gitscm](https://git-scm.com/docs/gittutorial)
+5. [Git Documentation](https://git-scm.com/docs/gittutorial)
 
 
 
