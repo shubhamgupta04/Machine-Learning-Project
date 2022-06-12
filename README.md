@@ -20,6 +20,8 @@ OR
 conda activate venv
 pip install -r requirements.txt
 
+## Git and Github
+
 To Add files to git
 git add .
 OR
@@ -43,12 +45,13 @@ To check remote url
 git remote -v
 
 
-To setup CI/CD pipeline in heroku we need 3 information
+## To setup CI/CD pipeline in heroku we need 3 information
 
 HEROKU_EMAIL = subham.g.1995@gmail.com
 HEROKU_API_KEY = 222aa3be-ab5b-4ea0-ad25-a330abc80c0a
 HEROKU_APP_NAME = ml-regression-app0
 
+## Docker
 BUILD DOCKER IMAGE
 docker build -t <image_name>:<tagname> .
 Note: Image name for docker must be lowercase
