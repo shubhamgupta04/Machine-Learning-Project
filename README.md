@@ -1,49 +1,84 @@
 ## Start Machine Learning project.
 '''
-Software and account Requirement.
+## Software and account Requirement.
 '''
 
-Github Account
-Heroku Account
-VS Code IDE
-GIT cli
+1. [Github Account](https://github.com/)
+2. [Heroku Account](https://dashboard.heroku.com/)
+3. [VS Code IDE](https://code.visualstudio.com/download)
+4. [GIT cli](https://git-scm.com/downloads)
 5. [Git Documentation](https://git-scm.com/docs/gittutorial)
 
 
-
-Creating conda environment
-
+# Creating conda environment
+'''
 conda create -p venv python==3.7 -y
-conda activate venv/
-OR
+'''
 
+'''
+conda activate venv/
+'''
+OR
+'''
 conda activate venv
+'''
+
+# To install flask
+'''
 pip install -r requirements.txt
+'''
 
 ## Git and Github
 
-To Add files to git
+# To clone git to vscode
+git clone <url>
+dir or ls #check #if it is cloned
+cd <dir> #go to the dir
+code . #open vscode
+
+# To Add files to git
+'''
 git add .
+'''
 OR
+'''
 git add <file_name>
+'''
 
-Note: To ignore file or folder from git we can write name of file/folder in .gitignore file
+# To ignore file or folder from git we can write name of file/folder in file
+'''
+.gitignore
+'''
 
-To check the git status
+# To check the git status
+'''
 git status
+'''
 
-To check all version maintained by git
+# To check all version maintained by git
+'''
 git log
+'''
 
-To create version/commit all changes by git
+# To create version/commit all changes by git
+'''
 git commit -m "message"
+'''
 
-To send version/changes to github
+# To send version/changes to github
+'''
 git push origin main
+'''
 
-To check remote url
+# To pull version/changes from github
+'''
+git pull origin main
+'''
+
+# To check remote url
+'''
 git remote -v
-
+'''
 
 ## To setup CI/CD pipeline in heroku we need 3 information
 
