@@ -109,3 +109,4 @@ docker ps
 '''
 docker stop <container_id>
 '''
+python setup.py install
