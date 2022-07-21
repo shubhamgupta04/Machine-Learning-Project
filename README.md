@@ -14,7 +14,7 @@
 '''
 conda create -p venv python==3.7 -y
 '''
-
+# activate conda environment
 '''
 conda activate venv/
 '''
@@ -109,6 +109,8 @@ docker ps
 '''
 docker stop <container_id>
 '''
+
+# To install all requirements.txt in setup file
 '''
 python setup.py install
 '''
